@@ -15,11 +15,16 @@
     margin-top: -8px;
   }
 
-  .nav span {
-    font-size: 48px;
-  }
+    .nav span {
+        font-size: 48px;
+    }
 
-  .nav button {
-	height: 90px;
-    font-size: 32px;
-  }
+    .nav button {
+        height: 90px;
+        font-size: 32px;
+    }
+  
+    .nav mat-menu {
+        padding-top: 120px;
+    }
+    

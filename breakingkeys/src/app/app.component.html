@@ -11,6 +11,11 @@
   <button mat-button>Events</button>
   <button mat-button>Social</button>
   <button mat-button>Help</button>
-  <button mat-button>Profile</button>
+  <button mat-button [matMenuTriggerFor]="menu">Profile</button>
+  <mat-menu #menu="matMenu">
+      <button mat-menu-item>Your profile</button>
+      <button mat-menu-item>Settings</button>
+      <button mat-menu-item>Sign out</button>
+    </mat-menu>
   </mat-toolbar-row>
 </mat-toolbar>
