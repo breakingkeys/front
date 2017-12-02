@@ -1,0 +1,25 @@
+.example-icon {
+    padding: 0 16px 0 0;
+    height: 90px;
+    width: 90px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .nav {
+	height: 90px;
+	background-color: #f8f8f6;
+    padding-top: 12px;
+    margin-top: -8px;
+  }
+
+  .nav span {
+    font-size: 48px;
+  }
+
+  .nav button {
+	height: 90px;
+    font-size: 32px;
+  }
