@@ -11,11 +11,13 @@
   <button mat-button>Events</button>
   <button mat-button>Social</button>
   <button mat-button>Help</button>
-  <button mat-button [matMenuTriggerFor]="menu">Profile</button>
-  <mat-menu #menu="matMenu">
-      <button mat-menu-item>Your profile</button>
-      <button mat-menu-item>Settings</button>
-      <button mat-menu-item>Sign out</button>
-    </mat-menu>
+  <div class="dropdown">
+      <button mat-button class="dropbtn">Profile</button>
+      <div class="dropdown-content">
+          <a href="#">Your profile</a>
+          <a href="#">Settings</a>
+          <a href="#">Sign out</a>
+      </div>
+    </div>
   </mat-toolbar-row>
 </mat-toolbar>
